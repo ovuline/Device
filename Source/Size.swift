@@ -15,20 +15,22 @@ public enum Size: Int, Comparable {
     case screen4Inch
     /// iPhone 6, 6s, 7, 8, SE 2nd gen.
     case screen4_7Inch
-    /// iPhone 12 Mini
+    /// iPhone 12 Mini, 13 Mini
     case screen5_4Inch
     /// iPhone 6+, 6s+, 7+, 8+
     case screen5_5Inch
     /// iPhone X, Xs, 11 Pro
     case screen5_8Inch
-    /// iPhone Xr, 11, 12, 12 Pro
+    /// iPhone Xr, 11, 12, 12 Pro, 13, 13 Pro
     case screen6_1Inch
     /// iPhone Xs Max, 11 Pro Max
     case screen6_5Inch
-    /// iPhone 12 Pro Max
+    /// iPhone 12 Pro Max, 13 Pro Max
     case screen6_7Inch
     /// iPad Mini
     case screen7_9Inch
+    /// iPad Mini 6th gen
+    case screen8_3Inch
     /// iPad, iPad Pro (9.7-inch)
     case screen9_7Inch
     /// iPad (10.2-inch)
